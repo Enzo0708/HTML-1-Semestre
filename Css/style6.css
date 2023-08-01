@@ -1,0 +1,6 @@
+.container{
+    background-color: blueviolet;
+    font-size: 32px;
+    max-width: 960px;
+    display: flex;
+}

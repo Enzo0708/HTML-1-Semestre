@@ -1,0 +1,22 @@
+body{
+    background-color: white;
+}
+
+div{
+    width: 400px;
+    height: 100vh;
+    background-color: aqua;
+    margin: 20px;
+}
+
+#sessao-4{
+    background-color: rgb(199, 13, 13);
+}
+
+div, p{
+    font-size: 34px;
+}
+
+#texto{
+    font-size: 64px;
+}

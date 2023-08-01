@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<title>Currículo</title>
+</head>
+<body>
+<h1>Enzo Biason Manha</h1>
+<h1>Contatos</h1>
+<p>.Email: enzobiason7@gmail.com</p>
+<p>.Telefone:(19) 99222-0906</p>
+<p> </p>
+<h1>Objetivo</h1>
+<p>Trabalhar para adquirir mais experiência profissional e social, ajudando a empresa como resultado.</p>
+<h1>Experiência</h1>
+<p>-Programador</p>
+<p>-Curso Tecnico Senai</p>
+<p>-Diploma AI-900 Microsoft</p>
+<h1>Educação</h1>
+<p>-Sesi Sumaré 341 (2013 - 2022)</p>
+<p>-Sesi Jundiaí 409 (2023 - 2024)</p>
+<p>-Senai Jundiaí (2023 - 2024)</p>
+<h1>Habilidades</h1>
+<p>.Python Avançado</p>
+<p>.HTML</p>
+</body>
+</html>

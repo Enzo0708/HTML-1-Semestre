@@ -1,0 +1,8 @@
+/*h1{n precisa de tags"<></>}
+*{seleciona tudo}
+li{
+    propriedade: atributo;
+}
+externo - arquivo.css
+interno - <style></style>
+inline - <p style="prop: atributo;"></style>*/

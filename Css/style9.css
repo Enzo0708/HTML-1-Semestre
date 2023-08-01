@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+.container{
+    background-color: black;
+    color: #ffff;
+    width: 400px;
+    height: 400px;
+    border-top: 10px dotted red;
+}
+
+.ph1{
+    background-color: black;
+    color: #ffff;
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    margin: 0;
+}
+
+.ph2{
+    margin: 0;
+}
+
+.ph3{
+    background-color: orange;
+    color: #ffff;
+    width: 150px;
+    height: 400px;
+    display: inline-block;
+    margin: 0;
+}

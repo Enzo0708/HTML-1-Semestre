@@ -1,0 +1,114 @@
+*{
+    text-decoration: none;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.topo{
+    padding: 20px 45px;
+    background-color: #ffffff;
+}
+
+.links{
+    display: inline-block;
+}
+
+.link1{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.links:hover{
+    padding: 15px;
+    transition: 300ms ease all;
+}
+
+.link2{
+    display: inline-block;
+    padding: 0px 20px 0px 0px;
+}
+
+.link3{
+    display: inline-block;
+}
+
+a{
+    color: black;
+}
+
+.mpbox{
+    display: inline-block;
+    padding: 10px;
+    border: 2px solid #BB0BA6;
+}
+
+.espaço{
+    padding-top: 170px;
+    padding-bottom: 38px;
+}
+
+.frase{
+    padding-left: 45px;
+}
+
+.frasec{
+    padding-bottom: 25px;
+    max-width: 440px;
+    max-height: 100px;
+}
+
+.nav{
+    display: inline-block;
+    color: #BB0BA6;
+}
+
+.frase2{
+    padding: 5px;
+}
+
+.texto{
+    padding-left: 40px;
+    display: inline-block;
+}
+
+.but{
+    padding: 10px 25px;
+}
+
+.dig{
+    padding-left: 43px;
+    display: inline-block;
+}
+
+.dig2{
+    display: inline-block;
+}
+
+body{
+    background-color: #ffffff;
+    color: #2c2c2c;
+}
+
+.dawn{
+    background-color: #566D6D;
+    padding: 15px;
+}
+
+#texto{
+    color: #4A4A4A;
+    padding: 0px 45px;
+    max-width: 450px;
+}
+
+.caixa{
+    padding: 10px 25px;
+    text-align: center;
+}
+
+.fundo{
+    background-color: #E0E6E6;
+}
+
+.enviar{
+    padding-bottom: 35px;
+}

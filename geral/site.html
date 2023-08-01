@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compras Online</title>
+</head>
+<body>
+    <!-- Essa parte foi criada para coloração e configuração dos espaçamentos da tabela e tamanhos -->
+    <style>
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        th{
+            background-color: rgb(191, 216, 0);
+            padding: 10px;
+            color: rgb(84, 95, 1);
+            font-weight: 200;
+        }
+
+        td{
+            border: 1px solid rgb(227, 227, 227);
+            padding: 20px;
+        }
+
+        tr:nth-child(2n){
+            background-color: rgb(249, 251, 242);
+        }
+
+    </style>
+    <!-- Aqui foi a criação da tabela em si, os títulos e os itens da tabela -->
+    <h1 align="center">Descrição de compras:</h1>
+    <table align="center">
+        <tr>
+            <!-- Definição do tamanho dos tópicos da tabela -->
+            <th width="175px">Descrição</th>
+            <th width="100px">Quantidade</th>
+            <th width="350px">Preço</th>
+            <th width="75px">Subtotal</th>
+            <th width="45px">Remover</th>
+        </tr>
+        <tr>
+            <!-- Aqui inserimos as imagens para a tabela -->
+            
+            <td><img src="img/Untitled__2_-removebg-preview.png" width="150px" height="140px"><li>Moletom largo</li>
+            <ul>
+            <li><strong>Cor:</strong> Preto<br></li> 
+            <li><strong>Tamanho:</strong>G </li>
+            <li><strong>Em Estoque</strong></li>
+            </td>
+            </ul>
+             <!-- Aqui criamos o design do botão -->
+            <td><button onclick="alerta()">+</button> 1 
+                <button onclick="alerta()">-</button>
+            </td>
+            <td>R$100,00</td>
+            <td>R$100,00</td>
+            <!-- Aqui criamos o design do botão -->
+            <td><button onclick="alerta()">X</button></td>
+        </tr>
+        <tr>
+            <ul>
+                <!-- Aqui inserimos as imagens para a tabela -->
+            <td><img src="img/Untitled-removebg-preview.png" width="150px" height="140px"><li>Calça Sarja</li>
+            <li><strong>Cor:</strong>Beje</li>
+            <li><strong>Tamanho:</strong>42</li>
+            <li><strong>Em Estoque</strong></li></td>
+            </ul>
+            <!-- Aqui criamos o design do botão -->
+            <td><button onclick="alerta()">+</button> 2
+                <button onclick="alerta()">-</button>
+            </td>
+            <td>R$120,00</td>
+            <td>R$240,00</td>
+            <!-- Aqui criamos o design do botão -->
+            <td><button onclick="alerta()">X</button></td>
+        </tr>
+        <tr>
+            <ul>
+                <!-- Aqui inserimos as imagens para a tabela -->
+            <td><img src="img/Untitled__1_-removebg-preview.png" width="150px" height="140px"><li>Tenis Nike</li>
+                <li><strong>Cor:</strong>Preto</li>
+                <li><strong>Tamanho:</strong>G</li>
+                <li><strong>Em Estoque</strong></li>
+            </td>
+            </ul>
+             <!-- Aqui criamos o design do botão -->
+            <td><button onclick="alerta()">+</button> 1
+                <button onclick="alerta()">-</button>
+            </td>
+            <td>R$500,00</td>
+            <td>R$500,00</td>
+             <!-- Aqui criamos o design do botão -->
+            <td><button onclick="alerta()">X</button>
+                <script>
+                    function alerta(){
+                    alert("ih ala uso cupom q pobre kkkkk")
+                    }
+                </script></td>
+        </tr>
+        <tr>
+            <!-- Aqui inserimos o link do site para o caso de o cliente se interessar em mais produtos -->
+            <td colspan="2"><a href="https://www.mercadolivre.com.br/">Escolher mais produtos</a></td>
+            <td>
+                <label for="text"><strong>Cupom:</strong></label>
+                <input type="text" placeholder="Insira o cupom aqui"> <button onclick="alerta()">Adicionar</button> </td>
+            <td colspan="2"><strong>Total:</strong> R$ 840,00</td>
+        </tr>
+        
+    </table>
+</body>
+</html>

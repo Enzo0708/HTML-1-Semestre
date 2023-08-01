@@ -1,0 +1,29 @@
+.container{
+    background-color: blue;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    padding-left: 20px;
+    color: white;
+}
+.a{
+    color: white;
+}
+
+.menu{
+    background-color: blue;
+    padding: 20px;
+}
+
+--------------------------------------
+
+nav{
+    margin-top: 10px;
+}
+
+nav a{
+    color: aliceblue;
+}
+
+.logo a{
+    color: aliceblue;
+}
